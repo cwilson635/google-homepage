@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 50px;
+    padding: 20px;
+}
+
+.nav-link {
+    color: #404040;
+    font-size: 10pt;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.main-nav li, .footer-nav li {
+    display: inline;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.google-logo {
+    display: block;
+    width: 273px;
+    margin: 68px auto 0 auto;
+}
+
+.search-bar {
+    border: 1px solid #dfe1e5;
+    border-radius: 50px;
+    /* box-shadow: 5px 5px #888888; */
+    display: block;
+    font-size: 11pt;
+    height: 45px;
+    margin: 25px auto 0 auto;
+    padding-left: 40px;
+    width: 540px;
+}
+
+.search-buttons {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.search-buttons button {
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    color: #404040;
+    font-size: 10pt;
+    margin: 0 5px;
+    padding: 10px 15px;
+}
+
+.search-buttons button:hover {
+    border: 1px solid #e3e3e3;
+    padding: 8px;
+}
+
+input {
+    background-image:url('../img/search-ico.png'), url('../img/microphone-ico.png');
+    background-repeat:no-repeat, no-repeat;
+    background-size: 22px, 25px;
+    /* background-position:left center; */
+    background-position: 2% 50%, 97% 50%;
+    outline:0;
+}
+
+input:hover, input:focus {
+    box-shadow: 1px 1px 7px #e2e2e3;
+}
+
+.footer-nav {
+    border: 1px solid #e3e3e3;
+    background-color: #ededed;
+    bottom: 0;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-right {
+    float: right;
+}
